@@ -15,5 +15,13 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text != null)
+            {
+                String a = textBox1.Text.ToString();
+            }
+        }
     }
 }
