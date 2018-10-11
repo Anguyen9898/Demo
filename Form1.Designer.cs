@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.rdCong = new System.Windows.Forms.RadioButton();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             this.button1 = new System.Windows.Forms.Button();
@@ -44,16 +43,6 @@
             this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 0;
             // 
-            // rdCong
-            // 
-            this.rdCong.Location = new System.Drawing.Point(114, 127);
-            this.rdCong.Name = "rdCong";
-            this.rdCong.Size = new System.Drawing.Size(110, 21);
-            this.rdCong.TabIndex = 1;
-            this.rdCong.TabStop = true;
-            this.rdCong.Text = "radioButton1";
-            this.rdCong.UseVisualStyleBackColor = true;
-            // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
@@ -64,10 +53,15 @@
             // 
             // button1
             // 
+
             this.button1.Location = new System.Drawing.Point(142, 184);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
+            this.button1.Location = new System.Drawing.Point(95, 144);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -91,10 +85,9 @@
 
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.RadioButton rdCong;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.OpenFileDialog openFileDialog2;
         private System.Windows.Forms.Button button1;
     }
-}ew=asdasd
+}
 
